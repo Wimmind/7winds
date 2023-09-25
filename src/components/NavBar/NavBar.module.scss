@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  color: #fff;
+
+  padding: 5px 0 5px 20px;
+  display: flex;
+  column-gap: 14px;
+  cursor: pointer;
+  &:hover {
+    background-color: #a1a1aa;
+  }
+}
